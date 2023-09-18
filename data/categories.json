@@ -1,0 +1,93 @@
+{
+    "restaurantData": [
+      {
+        "id": 1,
+        "name": "La Pino'z Pizza",
+        "img": "/lapinoz.png"
+      },
+      {
+        "id": 2,
+        "name": "McDonald's",
+        "img": "/mcd.png"
+      },
+      {
+        "id": 3,
+        "name": "Starbucks",
+        "img": "/starbucks.png"
+      },
+      {
+        "id": 4,
+        "name": "Burger King",
+        "img": "/bk.png"
+      },
+      {
+        "id": 5,
+        "name": "KFC",
+        "img": "/kfc.png"
+      },
+      {
+        "id": 6,
+        "name": "Coffee Culture",
+        "img": "/chipotle.png"
+      }
+    ],
+    "foodData": [
+      {
+        "id": 1,
+        "name": "Vadapav",
+        "img": "/vadapav.png",
+        "time": 30
+      },
+      {
+        "id": 2,
+        "name": "panipuri",
+        "img": "/panipuri.png",
+        "time": 30
+      },
+      {
+        "id": 3,
+        "name": "Pav Bhaji",
+        "img": "/pavbhaji.png",
+        "time": 30
+      },
+      {
+        "id": 4,
+        "name": "Ice-Cream",
+        "img": "/ice-cream.png",
+        "time": 30
+      },
+      {
+        "id": 5,
+        "name": "Sandwich",
+        "img": "/sandwich.png",
+        "time": 30
+      },
+      {
+        "id": 6,
+        "name": "Pizza",
+        "img": "/pizzabk.png",
+        "time": 30
+      }
+    ],
+    "restData": [
+      {
+        "id": 1,
+        "name": "veggie friendly",
+        "img": "/veg.png",
+        "place": 20
+      },
+      {
+        "id": 2,
+        "name": "trending this week",
+        "img": "/pancake1.png",
+        "place": 35
+      },
+      {
+        "id": 3,
+        "name": "authentic",
+        "img": "/waffle.png",
+        "place": 10
+      }
+    ]
+  }
+  

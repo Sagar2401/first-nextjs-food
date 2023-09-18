@@ -1,0 +1,70 @@
+.dishmainwrap {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+.header {
+  color: #ffc200;
+  font-size: 48px;
+
+  font-weight: 700;
+
+  text-transform: capitalize;
+}
+.desc {
+  color: #000;
+  font-size: 16px;
+
+  font-weight: 400;
+
+  text-transform: lowercase;
+}
+.dishwrap {
+  display: flex;
+  flex-direction: row;
+  margin: 70px 0;
+  gap: 40px;
+  align-items: center;
+}
+.line {
+  width: 200px;
+  background-color: var(--primary-color);
+  margin-top: -60px;
+  height: 2px;
+}
+
+.dishcard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.dishtitle {
+  color: #000;
+  font-size: 18px;
+
+  font-weight: 600;
+
+  text-transform: capitalize;
+}
+
+@media only screen and (max-width: 600px) {
+  .dishwrap {
+    gap: 15px;
+    align-items: flex-start;
+  }
+  .line {
+    width: 30px;
+    margin-top: 40px;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .dishwrap {
+    gap: 15px;
+    align-items: flex-start;
+  }
+  .line {
+    width: 30px;
+    margin-top: 100px;
+  }
+}

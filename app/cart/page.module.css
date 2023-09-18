@@ -1,0 +1,124 @@
+.catname {
+  color: #000;
+  font-size: 32px;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin: 10px 0px 10px 80px;
+}
+.pricewrap {
+  width: 30%;
+}
+.cardswrap {
+  padding: 10px 80px;
+  display: flex;
+  flex-direction: row;
+}
+.cardwrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 70%;
+}
+.boldname {
+  color: #000;
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: space-between;
+}
+.mediumboldname {
+  color: #000;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin: 80px 0 20px 0;
+}
+.couponwrap {
+  display: flex;
+
+  justify-content: space-between;
+  margin: 10px 0;
+  flex-direction: row;
+}
+/* .couponwrap input {
+  border-radius: 3px;
+  background: #f3f3f3;
+  border: 0;
+  padding: 11px;
+} */
+.couponwrap .MuiTextField-root {
+  border-radius: 3px;
+  background: #f3f3f3;
+  border: 0;
+  padding: 11px;
+}
+.couponwrap .Mui-Focused {
+  border-color: var(--primary-color);
+}
+
+/* 
+.couponwrap input:hover,
+.couponwrap input:focus,
+.couponwrap input:active {
+  border: 0;
+  border-color: transparent;
+} */
+
+@media only screen and (max-width: 600px) {
+  .catname {
+    margin: 10px 30px;
+  }
+  .cardswrap {
+    padding: 10px 30px;
+    flex-direction: column;
+  }
+  .cardwrap {
+    width: 100%;
+    flex-direction: column;
+  }
+  .pricewrap {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .catname {
+    margin: 10px 30px;
+  }
+  .cardswrap {
+    padding: 10px 30px;
+    flex-direction: column;
+  }
+  .cardwrap {
+    width: 100%;
+  }
+  .pricewrap {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+}
+@media only screen and (min-width: 901px) and (max-width: 1224px) {
+  .catname {
+    margin: 10px 30px;
+  }
+  .cardswrap {
+    padding: 10px 30px;
+  }
+  .cardwrap {
+    width: 60%;
+  }
+  .pricewrap {
+    width: 40%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+}

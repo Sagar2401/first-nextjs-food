@@ -1,0 +1,41 @@
+.btnwrap {
+  display: flex !important;
+  gap: 15px !important;
+  align-items: center !important;
+  margin-top: 15px !important;
+}
+.dec,
+.dec:hover {
+  border-radius: 3px !important;
+  background: #999 !important;
+  color: #fff !important;
+  padding: 6px !important;
+  min-width: 48px !important;
+}
+.inc,
+.inc:hover {
+  min-width: 48px !important;
+  padding: 6px !important;
+  border-radius: 3px !important;
+  background: #ffa500 !important;
+  color: #fff !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .dec,
+  .inc,
+  .dec:hover,
+  .inc:hover {
+    min-width: 30px !important;
+    padding: 3px !important;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .dec,
+  .inc,
+  .dec:hover,
+  .inc:hover {
+    min-width: 30px !important;
+    padding: 3px !important;
+  }
+}

@@ -1,0 +1,251 @@
+.imgwrap {
+  display: grid;
+
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 9px;
+  /* height: 100%; */
+}
+
+.item0 {
+  grid-row-start: 1;
+  grid-column-start: 2;
+  grid-row-end: 2;
+  grid-column-end: 3;
+}
+.item1 {
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-row-end: 3;
+  grid-column-end: 2;
+}
+.item2 {
+  grid-row-start: 2;
+  grid-column-start: 2;
+  grid-row-end: 3;
+  grid-column-end: 3;
+}
+.restonamewrap {
+  display: flex;
+  flex-direction: row;
+  gap: 26px;
+}
+.namewrap {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+}
+.boldname {
+  color: #000;
+  font-size: 36px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.mediumboldname {
+  color: #000;
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin: 80px 0 20px 0;
+}
+.lightname {
+  color: #999;
+  font-size: 16px;
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  font-weight: 300;
+  text-transform: capitalize;
+}
+.btnwrap {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin-top: 40px;
+}
+.manuwrap {
+  display: flex;
+  flex-direction: row;
+}
+.manuwrap {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.menuname {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.text {
+  color: #000;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.productwrap {
+  display: flex;
+  flex-direction: row;
+  margin: 40px 0 0 0;
+}
+.sidebar {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 40px 0;
+  border-right: 2px solid var(--primary-color);
+}
+.sidebarItem {
+  padding: 8px 12px;
+  font-size: 20px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.productlist {
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 70%;
+  height: 840px;
+  overflow-y: scroll;
+}
+.catname {
+  color: #000;
+  font-size: 32px;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+.img1 {
+  height: 220px;
+}
+.img2 {
+  height: 450px;
+}
+.datawrap {
+  padding: 50px 360px;
+}
+.txtwrap span {
+  margin-left: 28px;
+}
+.productlist::-webkit-scrollbar {
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  .img1 {
+    height: 120px;
+  }
+  .img2 {
+    height: 250px;
+  }
+  .datawrap {
+    padding: 50px 0px;
+  }
+  .boldname {
+    font-size: 24px;
+  }
+  .lightname {
+    font-size: 14px;
+  }
+  .txtwrap span {
+    margin: 0;
+  }
+  .txtwrap {
+    display: flex;
+    flex-direction: column;
+  }
+  .btnwrap button {
+    font-size: 12px;
+  }
+  .mediumboldname,
+  .manuwrap,
+  .productwrap,
+  .text {
+    margin: 40px 20px;
+  }
+  .productlist {
+    padding: 20px 10px;
+    width: 100%;
+  }
+  .catname {
+    margin-bottom: 0px;
+  }
+  .restonamewrap {
+    flex-direction: column;
+    align-items: center;
+    gap: 26px;
+  }
+
+  .productwrap {
+    flex-direction: column;
+  }
+  .sidebar {
+    border-bottom: 2px solid var(--primary-color);
+    border-right: none;
+    flex-direction: row;
+    width: 100%;
+    overflow: auto;
+    padding: 10px 0;
+  }
+  .sidebarItem {
+    width: 150px;
+    min-width: 150px;
+    text-wrap: nowrap;
+    display: block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .img1 {
+    height: 120px;
+  }
+  .img2 {
+    height: 250px;
+  }
+  .datawrap {
+    padding: 50px;
+  }
+  .boldname {
+    font-size: 24px;
+  }
+  .lightname {
+    font-size: 14px;
+  }
+  .txtwrap span {
+    margin: 0;
+  }
+  .txtwrap {
+    display: flex;
+    flex-direction: column;
+  }
+  .btnwrap button {
+    font-size: 12px;
+  }
+  .mediumboldname,
+  .manuwrap,
+  .productwrap,
+  .text {
+    margin: 40px 20px;
+  }
+  .productlist {
+    padding: 20px 10px;
+  }
+  .catname {
+    margin-bottom: 0px;
+  }
+}
+@media only screen and (min-width: 901px) and (max-width: 1224px) {
+  .datawrap {
+    padding: 50px 100px;
+  }
+}

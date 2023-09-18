@@ -1,0 +1,32 @@
+.title {
+  color: #000;
+  font-size: 16px;
+
+  font-weight: 400;
+
+  text-transform: capitalize;
+}
+.desc {
+  color: #000;
+  font-size: 14px;
+
+  font-weight: 300;
+
+  text-transform: capitalize;
+}
+.card {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
+  width: 345px;
+  min-width: 345px; 
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    min-width: 345px;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .card {
+    min-width: 345px;
+  }
+}

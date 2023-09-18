@@ -1,0 +1,232 @@
+{
+  "data": {
+    "name": "La Pino'z Pizza",
+    "desc": "Pizza, Fast Food, Beverages",
+    "add": "Vesu, Surat",
+    "cost": "700rs per 2 person",
+    "logo": "/lapinoz.png",
+    "open": 11,
+    "close": 11,
+    "menu": [
+      {
+        "type": "dinning menu",
+        "img": "/menu.png"
+      },
+      {
+        "type": "takeaway menu",
+        "img": "/menu1.png"
+      }
+    ]
+  },
+  "categorius": {
+    "pizzas": [
+      {
+        "id": 1,
+        "name": "Margherita Pizza",
+        "description": "Classic tomato and mozzarella cheese",
+        "populer": false,
+        "time": 38,
+        "img2": "/eatalian.png",
+        "price": 109.9,
+        "img": "/p1.png"
+      },
+      {
+        "id": 2,
+        "name": "Pepperoni Pizza",
+        "description": "Pepperoni, tomato sauce, and mozzarella cheese",
+        "populer": true,
+        "time": 38,
+        "img": "/p1.png",
+        "price": 129.9,
+        "img2": "/speedy.png"
+      },
+      {
+        "id": 3,
+        "name": "Vegetarian Pizza",
+        "description": "Assorted veggies, tomato sauce, and mozzarella cheese",
+        "img": "/p1.png",
+        "time": 38,
+        "populer": false,
+        "img2": "/speedy.png",
+        "price": 119.9
+      },
+      {
+        "id": 4,
+        "name": "Hawaiian Pizza",
+        "description": "Ham, pineapple, tomato sauce, and mozzarella cheese",
+        "img": "/p1.png",
+        "time": 38,
+        "img2": "/eatalian.png",
+        "populer": false,
+        "price": 139.9
+      },
+      {
+        "id": 5,
+        "name": "Supreme Pizza",
+        "description": "Pepperoni, sausage, mushrooms, bell peppers, onions, olives, tomato sauce, and mozzarella cheese",
+        "populer": false,
+        "img": "/p1.png",
+        "time": 38,
+        "img2": "/Sicilian.png",
+        "price": 149.9
+      },
+      {
+        "id": 6,
+        "name": "BBQ Chicken Pizza",
+        "description": "BBQ chicken, red onions, BBQ sauce, and mozzarella cheese",
+        "img": "/p1.png",
+        "populer": true,
+        "img2": "/L-appetitosa.png",
+        "time": 38,
+        "price": 129.9
+      },
+      {
+        "id": 7,
+        "name": "Margarita Pizza",
+        "description": "Fresh basil, tomato sauce, and mozzarella cheese",
+        "img": "/p1.png",
+        "time": 38,
+        "populer": false,
+        "img2": "/eatalian.png",
+        "price": 119.9
+      },
+      {
+        "id": 8,
+        "name": "Four Cheese Pizza",
+        "description": "Mozzarella, cheddar, parmesan, and blue cheese",
+        "img": "/p1.png",
+        "populer": false,
+        "time": 38,
+        "img2": "/speedy.png",
+        "price": 139.9
+      },
+      {
+        "id": 9,
+        "name": "Meat Lover's Pizza",
+        "description": "Pepperoni, sausage, bacon, ham, tomato sauce, and mozzarella cheese",
+        "time": 38,
+        "populer": true,
+        "img2": "/L-appetitosa.png",
+        "img": "/p1.png",
+        "price": 149.9
+      },
+      {
+        "id": 10,
+        "name": "Veggie Delight Pizza",
+        "description": "Mushrooms, bell peppers, onions, olives, tomato sauce, and mozzarella cheese",
+        "time": 38,
+        "img": "/p1.png",
+        "populer": false,
+        "img2": "/speedy.png",
+        "price": 129.9
+      }
+    ],
+    "Classic Pizzas For Classic Maniacs": [
+      {
+        "id": 11,
+        "name": "Classic Mania Special",
+        "description": "A selection of our classic pizzas for true pizza enthusiasts",
+        "time": 38,
+        "populer": true,
+        "img": "/p1.png",
+        "price": 199.9
+      },
+      {
+        "id": 12,
+        "name": "Veggie Lover's Delight",
+        "description": "An assortment of our best vegetarian pizzas",
+        "populer": true,
+        "time": 38,
+        "img": "/p1.png",
+        "price": 189.9
+      },
+      {
+        "id": 13,
+        "name": "Meat Feast Extravaganza",
+        "description": "A meat lover's dream with all our meaty pizzas",
+        "img": "/p1.png",
+        "populer": true,
+        "time": 38,
+        "price": 209.9
+      }
+    ],
+    "Garlic Breads": [
+      {
+        "id": 14,
+        "name": "Garlic Breadsticks",
+        "description": "Freshly baked garlic breadsticks with garlic butter",
+        "time": 38,
+        "img": "/p1.png",
+        "populer": true,
+        "price": 59.9
+      },
+      {
+        "id": 15,
+        "name": "Cheesy Garlic Bread",
+        "description": "Garlic bread topped with melted cheese",
+        "time": 38,
+        "populer": true,
+        "img": "/p1.png",
+        "price": 79.9
+      },
+      {
+        "id": 16,
+        "name": "Garlic Knots",
+        "description": "Soft garlic knots with a side of marinara sauce",
+        "time": 38,
+        "img": "/p1.png",
+        "populer": true,
+        "price": 69.9
+      }
+    ],
+    "Lasagna": [
+      {
+        "id": 17,
+        "name": "Classic Beef Lasagna",
+        "description": "Layers of pasta, seasoned beef, ricotta cheese, and marinara sauce",
+        "time": 38,
+        "img": "/p1.png",
+        "populer": true,
+        "price": 99.9
+      },
+      {
+        "id": 18,
+        "name": "Vegetable Lasagna",
+        "description": "Layers of pasta, mixed vegetables, ricotta cheese, and marinara sauce",
+        "time": 38,
+        "populer": true,
+        "img": "/p1.png",
+        "price": 89.9
+      },
+      {
+        "id": 19,
+        "name": "Spinach and Mushroom Lasagna",
+        "description": "Layers of pasta, spinach, mushrooms, ricotta cheese, and marinara sauce",
+        "time": 38,
+        "populer": true,
+        "img": "/p1.png",
+        "price": 89.9
+      }
+    ],
+    "Desserts": [
+      {
+        "id": 20,
+        "name": "Chocolate Lava Cake",
+        "description": "Warm chocolate cake with a molten chocolate center",
+        "img": "/ice-cream.png",
+        "time": 38,
+        "populer": true,
+        "price": 69.9
+      },
+      {
+        "id": 21,
+        "name": "Tiramisu",
+        "description": "Classic Italian dessert with coffee-soaked ladyfingers and mascarpone cheese",
+        "time": 38,
+        "img": "/ice-cream.png",
+        "populer": true,
+        "price": 79.9
+      }
+    ]
+  }
+}

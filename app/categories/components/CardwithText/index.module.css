@@ -1,0 +1,43 @@
+.card {
+  flex-direction: column;
+  display: flex;
+  gap: 20px;
+  cursor: pointer;
+  position: relative;
+}
+.text {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.img {
+  border-radius: 13px;
+  height: 500px;
+}
+.place {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.textwrap {
+  bottom: 34px;
+  left: 24px;
+  position: absolute;
+}
+@media only screen and (max-width: 600px) {
+  .card {
+    min-width: 100%;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .card {
+    min-width: 65%;
+  }
+}
+@media only screen and (min-width: 901px) and (max-width: 1224px) {
+  .card {
+    min-width: 40%;
+  }
+}
